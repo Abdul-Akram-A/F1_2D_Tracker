@@ -79,6 +79,7 @@ public class TelemetryService implements TelemetryServiceI {
                 lastValidResponse = response;
 
                 System.out.println("✅ Data received: " + response.size());
+                System.out.println(response.getFirst());
 
             } else {
 
